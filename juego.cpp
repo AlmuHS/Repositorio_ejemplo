@@ -11,11 +11,12 @@ juego::juego(){
 }
 
 int juego::gen_number(){
-
+	num1 = rand()%10;
+	num2 = rand()%10;
 }
 
 int juego::gen_operator(){
-
+	op = rand()%4;
 }
 
 void juego::show_operation(){
