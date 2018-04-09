@@ -20,7 +20,7 @@ int juego::gen_operator(){
 }
 
 void juego::show_operation(){
-
+	std::cout<<num1<<" "<<operation[op]<<" "<<num2<<" =";
 }
 
 bool juego::check_result(){
