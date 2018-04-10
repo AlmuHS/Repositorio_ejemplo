@@ -25,7 +25,22 @@ void juego::show_operation(){
 }
 
 bool juego::check_result(){
+	switch(op){
+		case 0:
+			return(num1 + num2 == answer);
+		break;
 
+		case 1:
+			return(num1 - num2 == answer);
+		break;
+
+		case 2:
+			return(num1 * num2 == answer);
+		break;
+		
+		case 3:
+			return(num1 / num2 == answer);
+		break;
+	}
 }
-
 
