@@ -3,6 +3,7 @@
 class juego{
 	int num1, num2, op;
 	char operation[4];
+	int answer;
 
 	public:
 		juego();
