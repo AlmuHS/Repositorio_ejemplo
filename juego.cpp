@@ -16,7 +16,7 @@ int juego::gen_number(){
 }
 
 int juego::gen_operator(){
-	op = rand()%4;
+	op = rand()%3;
 }
 
 void juego::show_operation(){
