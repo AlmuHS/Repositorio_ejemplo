@@ -11,8 +11,8 @@ juego::juego(){
 }
 
 int juego::gen_number(){
-	num1 = rand()%10;
-	num2 = rand()%10;
+	num1 = rand()%20;
+	num2 = rand()%20;
 }
 
 int juego::gen_operator(){
